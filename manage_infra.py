@@ -4,7 +4,7 @@ import os
 def main():
     print("Managing infrastructure...")
     # Example action: Listing files in a directory
-    files = os.listdir('/path/to/directory')
+    files = os.listdir('/usr/bin')
     for file in files:
         print(file)
 
